@@ -26,7 +26,7 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <Link href="https://flowbite.com/" className="hover:underline">Flowbite</Link>
+                  <Link href="https://flowbite.com/" className="hover:underline">FAME</Link>
                 </li>
                 <li>
                   <Link href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</Link>
@@ -60,7 +60,7 @@ export default function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
-            © {DateYear} <Link href="https://flowbite.com/" className="hover:underline">Flowbite™</Link>. All Rights Reserved.
+            © {DateYear} <Link href="https://flowbite.com/" className="hover:underline">FAME™</Link>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             {/* You can paste your SVG icons here or use icon components */}

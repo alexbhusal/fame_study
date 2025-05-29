@@ -34,7 +34,7 @@ export default function Navbar() {
             </li>
             <li className="relative group">
               <button className="flex items-center justify-between w-full py-2 px-3  text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto  ">
-                Dropdown
+                <span>Test Preparation</span>
                 <svg className="w-2.5 h-2.5 ms-2.5" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                 </svg>
@@ -42,9 +42,10 @@ export default function Navbar() {
               <div className="absolute left-0  hidden group-hover:block rounded-lg shadow-sm w-44 z-50">
                 <ul className="py-2 text-sm text-gray-700 bg-gray-200">
                   <li>
-                    <Link href="#" className="block px-4 py-2  ">Dashboard</Link>
+                    <Link href="/test-preparation/ielts" target="_blank" className="block px-4 py-2  ">IELTS</Link>
                   </li>
-                  <li><Link href="#" className="block px-4 py-2  ">Earnings</Link></li>
+                  <li><Link href="/test-preparation/pte" target="_blank" className="block px-4 py-2  ">PTE</Link></li>
+                  <li><Link href="/test-preparation/dualingo" target="_blank" className="block px-4 py-2  ">DUOLINGO</Link></li>
                 </ul>
               </div>
             </li>

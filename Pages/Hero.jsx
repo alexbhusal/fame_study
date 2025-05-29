@@ -2,9 +2,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
-      <img src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
-    </div>
+    <div >
+      <img src="https://res.cloudinary.com/dxdbrqanq/image/upload/v1748511230/c5l80zduywdqe1n8bjav.png"
+      className='max-h-[600px] w-full object-cover'  alt="" />
+      </div>
   )
 }
 

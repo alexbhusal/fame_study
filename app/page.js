@@ -3,8 +3,12 @@ import Load from "@/Components/Animation/Load";
 import Footer from "@/Components/Main/Footer";
 import InfoMation from "@/Components/Main/InfoMation";
 import Navbar from "@/Components/Main/NavBar";
+import About from "@/Pages/About";
+import Contact from "@/Pages/Contact";
+import Country from "@/Pages/Country";
 import Hero from "@/Pages/Hero";
 import OurTeam from "@/Pages/OurTeam";
+import OurUniversity from "@/Pages/OurUniversity";
 import Testomonial from "@/Pages/Testomonial";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -18,11 +22,12 @@ export default function Home() {
       setLoading(false);
     }, 3000);
   }, []);
-    useEffect(() => {
-    setTimeout(() => {
-      router.push("/notready");
-    }, 12000);
-  }, []);
+
+  //   useEffect(() => {
+  //   setTimeout(() => {
+  //     router.push("/notready");
+  //   }, 12000);
+  // }, []);
 
   return (
     <>
@@ -38,8 +43,12 @@ export default function Home() {
           <InfoMation />
             <Navbar />
             <Hero />
+            <About />
+            <Country />
             <OurTeam />
             <Testomonial/>
+            <OurUniversity />
+            <Contact />
             <Footer />
             
         </>

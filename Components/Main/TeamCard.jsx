@@ -10,7 +10,7 @@ export default function TeamCard({ users }) {
         >
           <div className="flex flex-col items-center pb-10">
             <img
-              className="h-10 w-auto md:w-28 md:h-28 object-cover rounded-3xl"
+              className="h-14 w-auto md:w-28 md:h-28 object-cover rounded-3xl"
               src={user.imgurl || defaultImg}
               alt={user.fullName}
               width={96}
