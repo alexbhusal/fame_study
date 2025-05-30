@@ -31,7 +31,7 @@ const Page = () => {
   return (
     <>
       <div className="">
-        <h1 className="text-center font-serif text-2xl md:text-4xl">Students FeedBack</h1>
+        <h1 className="text-center  text-sky-600 text-2xl md:text-4xl">Students FeedBack</h1>
       </div>
       <div className="">
         <Testimonials users={users} />

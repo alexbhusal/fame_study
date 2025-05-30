@@ -26,10 +26,10 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <Link href="https://flowbite.com/" className="hover:underline">FAME</Link>
+                  <Link href="#" className="hover:underline">FAME</Link>
                 </li>
                 <li>
-                  <Link href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</Link>
+                  <Link href="#" className="hover:underline">Once</Link>
                 </li>
               </ul>
             </div>
@@ -37,10 +37,10 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
-                  <Link href="https://github.com/themesberg/flowbite" className="hover:underline">GitHub</Link>
+                  <Link href="#" className="hover:underline">Facebook</Link>
                 </li>
                 <li>
-                  <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
+                  <Link href="#" className="hover:underline">Instagram</Link>
                 </li>
               </ul>
             </div>
@@ -70,7 +70,6 @@ export default function Footer() {
                 <path fillRule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clipRule="evenodd" />
               </svg>
             </Link>
-            {/* Add other social icons similarly */}
           </div>
         </div>
       </div>

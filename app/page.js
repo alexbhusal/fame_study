@@ -23,12 +23,6 @@ export default function Home() {
     }, 3000);
   }, []);
 
-  //   useEffect(() => {
-  //   setTimeout(() => {
-  //     router.push("/notready");
-  //   }, 12000);
-  // }, []);
-
   return (
     <>
       {loading ? (
@@ -37,9 +31,6 @@ export default function Home() {
         </div>
       ) : (
         <>
-          {/* <div className="flex justify-center items-center h-screen"> */}
-            {/* <Under /> */}
-          {/* </div> */}
           <InfoMation />
             <Navbar />
             <Hero />
@@ -50,7 +41,6 @@ export default function Home() {
             <OurUniversity />
             <Contact />
             <Footer />
-            
         </>
       )}
     </>

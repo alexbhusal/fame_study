@@ -32,9 +32,9 @@ const OurTeam = () => {
   ) : (
     <>
        <div className="">
-        <h1 className="text-center font-serif text-2xl md:text-4xl">Our Team</h1>
+        <h1 className="text-center text-sky-600  text-2xl md:text-4xl">Our Team</h1>
       </div>
-    <div className="p-10">
+    <div className="p-2 md:p-4">
         <TeamCard users={users}/> 
     </div>
     </>

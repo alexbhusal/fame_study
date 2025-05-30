@@ -4,7 +4,7 @@ import { GrMapLocation } from "react-icons/gr";
 
 const InfoMation = () => {
   return (
-    <div className='hidden  h-10 bg-blue-500 md:flex items-center justify-between px-6'>
+    <div className='hidden  h-10 bg-sky-600 md:flex items-center justify-between px-6'>
 
       {/* Contact Info */}
       <div className="flex items-center gap-10">

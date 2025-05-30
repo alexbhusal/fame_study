@@ -1,15 +1,13 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { AOSInit } from "@/Utils/AnimationOS";
+import { Poppins } from 'next/font/google';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400'], 
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Fame Study",
@@ -38,8 +36,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en"
     className="hydrated">
+      <AOSInit />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      className={poppins.className}
       >
         {children}
       </body>

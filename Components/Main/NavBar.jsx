@@ -8,7 +8,7 @@ export default function Navbar() {
   
   return (
     <nav className=" border-gray-200  sticky top-0 z-50 bg-white shadow-md h-20 ">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 ">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={webLogo} className="h-8" alt="Fame Logo" />
           <span className="hidden md:block self-center  text-2xl font-semibold whitespace-nowrap ">Fame Study Abroad</span>
