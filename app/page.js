@@ -7,6 +7,7 @@ import About from "@/Pages/About";
 import Contact from "@/Pages/Contact";
 import Country from "@/Pages/Country";
 import Hero from "@/Pages/Hero";
+import Location from "@/Pages/Location";
 import OurTeam from "@/Pages/OurTeam";
 import OurUniversity from "@/Pages/OurUniversity";
 import Testomonial from "@/Pages/Testomonial";
@@ -40,6 +41,7 @@ export default function Home() {
             <Testomonial/>
             <OurUniversity />
             <Contact />
+            <Location/>
             <Footer />
         </>
       )}
