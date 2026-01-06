@@ -28,12 +28,12 @@ export default function Navbar() {
         <div className={`${isNavOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-multi-level">
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
             <li>
-              <Link href="/" className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">
+              <Link href="/" className="block py-2 px-3 text-white bg-sky-700 rounded md:bg-transparent md:text-sky-700 md:p-0 " aria-current="page">
                 Home
               </Link>
             </li>
             <li className="relative group">
-              <button className="flex items-center justify-between w-full py-2 px-3  text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto  ">
+              <button className="flex items-center justify-between w-full py-2 px-3  text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-700 md:p-0 md:w-auto  ">
                 <span>Test Preparation</span>
                 <svg className="w-2.5 h-2.5 ms-2.5" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
@@ -50,13 +50,13 @@ export default function Navbar() {
               </div>
             </li>
             <li>
-              <Link href="#" className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Services</Link>
+              <Link href="#" className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-700 md:p-0 ">Services</Link>
             </li>
             <li>
-              <Link href="#" className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Pricing</Link>
+              <Link href="#" className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-700 md:p-0 ">Pricing</Link>
             </li>
             <li>
-              <Link href="#" className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</Link>
+              <Link href="#" className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-700 md:p-0 ">Contact</Link>
             </li>
           </ul>
         </div>
